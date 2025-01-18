@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.github.tacowasa059.multiviewtemplete.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "multiviewtemplete.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "GameRendererMixin",
+    "GuiMixin",
+    "LevelRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
